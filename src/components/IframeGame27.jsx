@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { Maximize2 } from 'lucide-react';
 
-export default function RocketLeagueGame() {
+export default function IframeGame27() {
   const iframeRef = useRef(null);
 
   const toggleFullscreen = () => {
@@ -15,7 +15,7 @@ export default function RocketLeagueGame() {
   return (
     <div className="w-full flex flex-col items-center bg-slate-900 rounded-3xl border border-slate-800 shadow-xl overflow-hidden">
       <div className="w-full bg-slate-950 text-white px-6 py-3 flex items-center justify-between">
-        <h3 className="font-bold uppercase tracking-widest text-sm">Rocket League Unblocked</h3>
+        <h3 className="font-bold uppercase tracking-widest text-sm">Racing Challenge 27</h3>
         <div className="flex items-center gap-4">
           <button 
             onClick={toggleFullscreen}
@@ -34,21 +34,20 @@ export default function RocketLeagueGame() {
       <div className="relative w-full flex justify-center bg-black p-4">
         <iframe 
           ref={iframeRef}
-          id="playframe" 
+          id="game-27-frame" 
           width="800" 
           height="500" 
           frameBorder="0" 
           scrolling="no" 
           allowFullScreen={true} 
-          src="https://ozogames.com/wp-content/uploads/games/html5/R/Rocket League Unblocked/index.html"
+          src="https://credit.riesgocrediticio.com/assets/iframe/27.html"
           className="rounded-lg shadow-2xl max-w-full h-auto aspect-[8/5]"
         />
       </div>
       <div className="p-6 bg-slate-950 w-full border-t border-slate-800">
-        <h4 className="font-bold text-white mb-2 underline decoration-indigo-500 decoration-2 underline-offset-4">Game Controls</h4>
+        <h4 className="font-bold text-white mb-2 underline decoration-indigo-500 decoration-2 underline-offset-4">Game Description</h4>
         <p className="text-sm text-slate-400 leading-relaxed">
-          Experience high-octane vehicular soccer! Use your driving skills to hit the ball into the opponent's goal. 
-          Perfect for a quick 5-minute study break.
+          Challenge yourself with this new racing game!
         </p>
       </div>
     </div>

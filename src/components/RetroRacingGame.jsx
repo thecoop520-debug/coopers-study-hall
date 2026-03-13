@@ -13,8 +13,8 @@ export default function RetroRacingGame() {
   };
 
   return (
-    <div className="w-full flex flex-col items-center bg-white rounded-3xl border-2 border-slate-200 shadow-xl overflow-hidden">
-      <div className="w-full bg-slate-900 text-white px-6 py-3 flex items-center justify-between">
+    <div className="w-full flex flex-col items-center bg-slate-900 rounded-3xl border border-slate-800 shadow-xl overflow-hidden">
+      <div className="w-full bg-slate-950 text-white px-6 py-3 flex items-center justify-between">
         <h3 className="font-bold uppercase tracking-widest text-sm">Retro Racing Adventure</h3>
         <div className="flex items-center gap-4">
           <button 
@@ -44,9 +44,9 @@ export default function RetroRacingGame() {
           className="rounded-lg shadow-2xl max-w-full h-auto aspect-[8/5]"
         />
       </div>
-      <div className="p-6 bg-slate-50 w-full border-t border-slate-200">
-        <h4 className="font-bold text-slate-900 mb-2 underline decoration-indigo-500 decoration-2 underline-offset-4">Game Description</h4>
-        <p className="text-sm text-slate-600 leading-relaxed">
+      <div className="p-6 bg-slate-950 w-full border-t border-slate-800">
+        <h4 className="font-bold text-white mb-2 underline decoration-indigo-500 decoration-2 underline-offset-4">Game Description</h4>
+        <p className="text-sm text-slate-400 leading-relaxed">
           A classic retro-style racing challenge. Test your reflexes and speed on the track. 
           A great way to clear your mind between intense study sessions!
         </p>

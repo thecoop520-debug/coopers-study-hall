@@ -73,14 +73,15 @@ export default function ArcadeGame169() {
       </div>
 
       {/* Game Content */}
-      <div className="flex-grow relative bg-black">
+      <div className="flex-grow relative bg-black flex items-center justify-center">
         <iframe 
           id="game-area-169"
-          src="https://play.gamepix.com/slope/embed"
-          className="w-full h-full border-none"
+          src="https://y8.com/embed/slope"
+          style={{ width: '960px', height: '641px', border: '0', margin: '0', padding: '0' }}
+          className="max-w-full max-h-full"
           allowFullScreen
           scrolling="no"
-          title="Neon Slope Arcade"
+          title="Slope Arcade (Y8 version)"
         />
         
         {/* Mobile Back Button Simulation (as per snippet) */}
